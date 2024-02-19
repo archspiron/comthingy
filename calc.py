@@ -8,3 +8,5 @@ while True:
     Var3 = (Var1 - Var2)
 
     print(f'Buyers comission: {Var3}')
+    if input('Continue? Y/N: ')in ('n', 'N'):
+        break
