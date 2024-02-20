@@ -5,7 +5,7 @@ while True:
 
     Var0 = (Sp - Bp)
     Var1 = ((Mv / Var0)*100)
-    Var2 = ((Bp / Varo)*100)
+    Var2 = ((Bp / Var0)*100)
     Var3 = (Var1 - Var2)
 
     print(f'Buyers comission: {Var3}')
